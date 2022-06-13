@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+            crossorigin="anonymous">
+        <title>De Leon | Online.Library Bootstrap page 1</title>
+    </head>
+        <body>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+                crossorigin="anonymous">
+            </script>
+            <div class="d-sm-flex p-1 bd-highlight bg-secondary">
+                <h1>Online.Library</h1>
+            </div>
+                <!----------------Search Bar, Filter, Search Function------------------------>  
+            <form class="border-radius">
+                <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:rgb(131, 131, 131);">
+                    <div class="container-fluid col-auto me-5">
+                        <label class="visually-hidden" for="autoSizingInput">Search</label>
+                        <input type="text" class="form-control" id="autoSizingInput" placeholder="Search">
+                      </div>
+                      <div class="col-auto me-2">
+                        <label class="visually-hidden" for="autoSizingSelect">Filter</label>
+                        <select class="form-select" id="autoSizingSelect">
+                          <option selected>Filter by...</option>
+                          <option value="title">Book Title</option>
+                          <option value="author">Author</option>
+                          <option value="date">Date Publish</option>
+                        </select>
+                      </div>
+                      <div class="col-auto me-1">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                      </div>
+                </nav>   
+                <!--<tr>
+                    <td>
+                       <div class="col"> 
+                            <input type="text" name="firstname" id="firstname" placeholder="Enter book title,Autor,etc..."size="85">        
+                        </div>    
+                            <select name="filter" id="filter">
+                                <option value="Author">Filter</option>
+                                <option value="Author">Author</option>
+                                <option value="Publisher">Publisher</option>
+                                <option value="Date Publish">Date Publish</option>
+                                <option value="win">Date Publish</option>
+                            </select>
+                        <button type="submit" value="seach" class="Button">SEARCH</button>  
+                    </td>
+                </tr>-->
+            </form>   
+            <form action="DeLeon_B12Exercise2B.html" method="">    
+                <div>
+                    <table class="table table-secondary table-responsive">    
+                        <!------------------------Tabel Heading--------------------------------->    
+                        <thead>    
+                            <tr class="d-lg-flex">
+                                <th class="col-lg bg-primary">Book Cover</th>
+                                <th class="col-lg bg-primary">Book Title</th>
+                                <th class="col-lg bg-primary">Author</th>
+                                <th class="col-lg bg-primary">Date Publish</th>
+                                <th class="col-lg bg-primary">Actions</th>
+                            </tr>
+                        </thead>
+                        <!---------------------To Kill A mockingbird----------------------------->     
+                        <tr class="d-lg-flex">
+                            <td class="col-5 col-lg"><img src="image1.jpg" alt="image1" width="225" height="400"></td>
+                            <td class="col-lg">To Kill a Mocking Bird</td>
+                            <td class="col-lg">Harper Lee</td>
+                            <td class="col-lg">July 11, 1960</td>
+                            <td class="col-lg">
+                                <button type="submit" class="btn btn-success">Add to Cart</button>
+                                <button type="submit" class="btn btn-warning">Add to Wishlist</button>
+                                <button type="submit" class="btn btn-danger">Buy now</button>  
+                            </td>
+                        </tr> 
+                        <!------------------------The Great Gatsby -------------------------------->
+                        <tr class="d-lg-flex">
+                            <td class="col-5 col-lg bg-light"><img src="image2.jpg" alt="image2" width="225" height="400"></td>
+                            <td class="col-lg bg-light">The Great Gatsby</td>
+                            <td class="col-lg bg-light">F. Scott Fitzgerald</td>
+                            <td class="col-lg bg-light">April 10 1925</td>
+                            <td class="col-lg bg-light">
+                                <button type="submit" class="btn btn-success">Add to Cart</button>
+                                <button type="submit" class="btn btn-warning">Add to Wishlist</button>
+                                <button type="submit" class="btn btn-danger">Buy now</button>    
+                            </td>
+                        </tr>
+                        <!--------------------------------1984 -------------------------------------->
+                        <tr class="d-lg-flex">
+                            <td class="col-5 col-lg"><img src="image3.jpg" alt="image3" width="225" height="400"></td>
+                            <td class="col-lg">Nineteen Eighty-Four</td>
+                            <td class="col-lg">Goerge Orwell</td>
+                            <td class="col-lg">June 8, 1949</td>
+                            <td class="col-lg">
+                                <button type="submit" class="btn btn-success">Add to Cart</button>
+                                <button type="submit" class="btn btn-warning">Add to Wishlist</button>
+                                <button type="submit" class="btn btn-danger">Buy now</button>    
+                            </td>
+                        </tr>
+                        <!-------------------Adventures of Huckleberry Finn---------------------------->
+                        <tr class="d-lg-flex">
+                            <td class="col-5 col-lg bg-light"><img src="image4.jpg" alt="image4" width="225" height="400"></td>
+                            <td class="col-lg bg-light">Adventures of Huckleberry Finn</td>
+                            <td class="col-lg bg-light">Mark Twain</td>
+                            <td class="col-lg bg-light">1884</td>
+                            <td class="col-lg bg-light">
+                                <button type="submit" class="btn btn-success">Add to Cart</button>
+                                <button type="submit" class="btn btn-warning">Add to Wishlist</button>
+                                <button type="submit" class="btn btn-danger">Buy now</button>    
+                            </td>
+                        </tr>
+                        <!-----------------------------Submit Button-------------------------------------->
+                        <tr>
+                            <td class="conatiner-fluid justify-content-end">
+                                <button type="submit" class="btn btn-danger">SUBMIT</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form> 
+        </body>
+</html>
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+            crossorigin="anonymous">
+        <title>De Leon | Online.Library Bootstrap page 2</title>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+            crossorigin="anonymous">
+        </script>
+        <div class="d-sm-flex p-1 bd-highlight bg-primary">
+            <h1>Checkout Form</h1>
+        </div>
+        <div class="table-responsive d-sm-flex p-2 bd-highlight justify-content-center">
+            <form action="" method="">
+                <table class="table table-secondary">
+                    <!------------------------INPUT NAME FUNCTION----------------------------------->
+                    <tr>
+                        <td>
+                            <label for="name">Name :</label>
+                        </td>
+                        <td>    
+                            <input type="text" name="name" id="name" size="54">
+                        </td>
+                    </tr>
+                    <!-----------------------INPUT ADDRESS FUNCTION----------------------------------->
+                    <tr>
+                        <td>
+                            <label for="address">Address :</label>
+                        </td>
+                        <td>
+                            <input type="text" name="address" id="address" size="54">
+                        </td>
+                    </tr>
+                    <!-----------------------SELECT REGION FUNCTION----------------------------------->
+                    <tr>
+                        <td>
+                            <label for="Region">Region :</label>
+                        </td>
+                        <td>    
+                            <select name="region" id="region">
+                                <option value="RegOne">Region I – Ilocos Region</option>
+                                <option value="RegTwo">Region II – Cagayan Valley</option>
+                                <option value="RegThree">Region III – Central Luzon</option>
+                                <option value="RegFour">Region IV‑A – CALABARZON</option>
+                                <option value="mimaropa">MIMAROPA Region</option>
+                                <option value="RegFive">Region V – Bicol Region</option>
+                                <option value="RegSix">Region VI – Western Visayas</option>
+                                <option value="RegSeven">Region VII – Central Visayas</option>
+                                <option value="RegEight">Region VIII – Eastern Visayas</option>
+                                <option value="RegNine">Region IX – Zamboanga Peninsula</option>
+                                <option value="RegTen">Region X – Northern Mindanao</option>
+                                <option value="RegEleven">Region XI – Davao Region</option>
+                                <option value="SocSargen">Region XII – SOCCSKSARGEN</option>
+                                <option value="RegEleven">Region XIII – Caraga</option>
+                                <option value="ncr">NCR – National Capital Region</option>
+                                <option value="car">CAR – Cordillera Administrative Region</option>
+                                <option value="barmm">BARMM – Bangsamoro Autonomous Region in Muslim Mindanao</option>
+                            </select>
+                        </td>    
+                    </tr>
+                    <!-----------------------INPUT CONTACT FUNCTION----------------------------------->    
+                    <tr>
+                        <td>
+                            <label for="contact">Contact number :</label>
+                        </td>
+                        <td>
+                            <input type="text" name="contact" id="Contact" size="54">
+                        </td>    
+                    </tr>
+                    <!----------------------------PAYMENT FUNCTION------------------------------------->
+                    <tr>
+                        <td><label for="Payment">Payment Method :</label></td>
+                        <td>
+                            <input type="radio" name="Payment" id="cod" value="cod">
+                            <label for="cod">Cash On Delivery</label>   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                        <input type="radio" name="Payment" id="MasterCard" value="MasterCard">
+                        <label for="MasterCard">Master Card</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="radio" name="Payment" id="AmericanExpress" value="AmericanExpress">
+                            <label for="AmericanExpress">American Express</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="radio" name="Payment" id="GCash" value="GCash">
+                            <label for="GCash">G-Cash</label>
+                        </td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                          <input type="radio" name="Payment" id="PayMaya" value="PayMaya">
+                          <label for="PayMaya">PayMaya</label>
+                        </td>
+                    </tr>
+                    <!----------------------------BACK and SUBMIT FUNCTION------------------------------------->
+                    <tr>                    
+                        <td>
+                            <button type="submit" class="btn btn-primary" value="Back">
+                                 <a href ="index.html" style="color: black;">BACK TO LIBRARY</a>
+                            </button> 
+                        </td>
+                        <td>
+                            <button type="submit" class="btn btn-danger" value="PlaceOrder">Place Order</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
